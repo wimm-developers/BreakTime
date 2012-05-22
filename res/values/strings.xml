@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 WIMM Labs Incorporated -->
+<resources>
+	<string name="app_name">BreakTime</string>
+    <string name="notifications_prompt">Allow BreakTime to send notifications.</string>
+    <string name="preference_prompt">Go to the web preference panel to change these settings:</string>
+    <string name="break_interval_header">Break Notification Interval:</string>
+    <string name="work_schedule_header">Work schedule:</string>
+    <string name="break_interval">Every</string>
+    <string name="notification_title">BreakTime</string>
+    <string name="notification_break_msg">Time to rest your eyes and walk away from your computer?</string>
+</resources>

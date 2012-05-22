@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 WIMM Labs Incorporated -->
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <TextView
+        android:text="@string/app_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:background="@drawable/header" />
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:background="#222"
+        android:fadingEdge="none"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none" >
+        <LinearLayout android:id="@+id/LinearLayout02"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#CCC" >
+            <TextView
+            	   android:id="@+id/notifications_prompt"
+                android:text="@string/notifications_prompt"
+                android:paddingTop="6dp"
+                android:textStyle="bold"
+                style="@style/settingsText" />
+            <com.wimm.framework.widget.ToggleButton
+                android:id="@+id/notifications_toggle"
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+            <TextView
+                android:text="@string/preference_prompt"
+                android:paddingTop="6dp"
+                android:textStyle="bold"
+                style="@style/settingsText" />
+            <TextView
+                android:text="@string/work_schedule_header"
+                android:paddingTop="6dp"
+                android:textStyle="bold"
+                style="@style/settingsText" />
+            <TextView
+                android:id="@+id/work_hours"
+                android:textColor="@color/blue"
+                android:paddingTop="6dp"
+                android:textStyle="bold"
+                style="@style/settingsText" />
+            <TextView
+                android:id="@+id/work_days"
+                android:textColor="@color/blue"
+                android:paddingTop="6dp"
+                android:textStyle="bold"
+                style="@style/settingsText" />
+            <TextView
+                android:text="@string/break_interval_header"
+                android:paddingTop="6dp"
+                android:textStyle="bold"
+                style="@style/settingsText" />
+            <TextView
+                android:id="@+id/break_interval"
+                android:textColor="@color/blue"
+                android:paddingTop="6dp"
+                android:textStyle="bold"
+                style="@style/settingsText" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

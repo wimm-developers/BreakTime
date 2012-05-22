@@ -1,0 +1,4 @@
+BreakTime is an app that remind user to periodically take a break(i.e take their eyes off the screen, get off their chair) during their work day through prompt/reminder(Notifications). Users will able configure some settings of this app through the setting panel in the application. They are also able to make these changes via the web preference panel in their account on www.wimm.com.
+
+This applications is created to demonstrate the usage of WIMM sync preference
+settings.

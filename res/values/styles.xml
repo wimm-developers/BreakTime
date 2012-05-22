@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 WIMM Labs Incorporated -->
+<resources>
+    <style name="settingsText">
+        <item name="android:textSize">14dp</item>
+        <item name="android:paddingLeft">6dp</item>
+        <item name="android:paddingRight">6dp</item>
+        <item name="android:textColor">#FF666666</item>
+        <item name="android:shadowColor">#FFE2E2E2</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>
