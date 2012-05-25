@@ -56,7 +56,6 @@ public class BreakTimeService extends IntentService {
     public void onCreate() {
         super.onCreate();
 
-        getContentResolver();
         // Getting sync preference values
         mEnableNotifications = SyncPreference.getBoolean(this,PREF_ENABLE_NOTIFICATIONS, DEFAULT_ENABLE_NOTIFICATIONS);
         mStartWorkTimeInMinsSinceMidnight = SyncPreference.getInt(this, PREF_START_WORK_TIME, DEFAULT_START_WORK_TIME);
